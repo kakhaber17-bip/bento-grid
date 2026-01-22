@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+
+main {
+    width: 85vw;
+    height: 90vh;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+}
+
+
+.left {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-card {
+    background: #d8a985;
+    padding: 10px;
+    border-radius: 10px;
+    width: 15vw ;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.left-card h2 {
+    font-size: 22px;
+}
+
+.left-card img {
+    width: 70%;
+    height: auto;
+}
+
+
+.right {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.up {
+    height: 55vh;
+    display: flex;
+    gap: 20px;
+}
+
+
+.up-social {
+    width: 40vw;
+    height: 40vh;
+    background: #7b61ff;
+    color: white;
+    padding: 22px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.up-social h1 {
+    font-size: 43px;
+}
+
+.up-social p {
+    font-size: 15px;
+}
+
+.up-social img {
+    width: 40%;
+}
+
+
+.up-down {
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.up-down-card {
+    padding: 34px;
+    border-radius: 25px;
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.up-down-card h2 {
+    font-size: 20px;
+}
+
+.up-down-card img {
+    width: 100%;
+}
+
+
+.up-right {
+    width: 16vw;
+}
+
+.up-right-card {
+    background: #ebe7ff;
+    padding: 38px;
+    border-radius: 1.5vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.up-right-card h2 {
+    font-size: 23px;
+}
+
+.up-right-card img {
+    width: 14vw;
+}
+
+
+.down {
+    height: 31vh;
+    display: flex;
+    gap: 20px;
+}
+
+
+.down-left {
+    width: 15vw;
+    background: #ffffff;
+    padding: 38px;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.down-left h1 {
+    font-size: 57;
+}
+
+.down-left p {
+    font-size: 1vw;
+}
+
+.down-left img {
+    width: 100%;
+}
+
+
+.down-right {
+    width: 45vw;
+    background: #7b61ff;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-right img {
+    width: 35%;
+}
+
+.down-right h2 {
+    font-size: 30px;
+    color: white;
+    padding: 80px;
+}
+
+
+
